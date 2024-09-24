@@ -13,8 +13,8 @@ hd_links = [v['dhd'] for v in data.values() if 'dhd' in v]
 
 print("Links fetched. Total: ", len(hd_links))
 
-# For testing purpose. take only 5
-hd_links = hd_links[:5]
+# If you want to limit the amount of data fetched, uncomment the below line
+# hd_links = hd_links[:5] # Only take first 5 wallpapers
 
 # Download all HD wallpapers
 output_folder = 'output'
